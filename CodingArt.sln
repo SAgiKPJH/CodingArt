@@ -1,10 +1,38 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Failed", "Failed", "{BB9B668E-6927-4A1E-B62D-4E164BD4B264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flower_2024", "Failed\Flower_2024\Flower_2024.csproj", "{5E3E59D0-26F1-4120-8EDF-B544F36EB9CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Working", "Working", "{C002D827-6926-485E-B026-0A753DEC5F55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Success", "Success", "{DC19B6F5-3324-468C-A958-BE8D55C1C367}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whale", "Working\Whale\Whale.csproj", "{037F8DA8-7AED-4C2D-AB5C-B6311E284D07}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E3E59D0-26F1-4120-8EDF-B544F36EB9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3E59D0-26F1-4120-8EDF-B544F36EB9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3E59D0-26F1-4120-8EDF-B544F36EB9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3E59D0-26F1-4120-8EDF-B544F36EB9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{037F8DA8-7AED-4C2D-AB5C-B6311E284D07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{037F8DA8-7AED-4C2D-AB5C-B6311E284D07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{037F8DA8-7AED-4C2D-AB5C-B6311E284D07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{037F8DA8-7AED-4C2D-AB5C-B6311E284D07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E3E59D0-26F1-4120-8EDF-B544F36EB9CF} = {BB9B668E-6927-4A1E-B62D-4E164BD4B264}
+		{037F8DA8-7AED-4C2D-AB5C-B6311E284D07} = {C002D827-6926-485E-B026-0A753DEC5F55}
 	EndGlobalSection
 EndGlobal
