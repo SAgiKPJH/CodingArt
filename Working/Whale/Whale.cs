@@ -11,9 +11,10 @@ namespace     Whale;
                         public double Weight { get; private set; }= weight; public double
                              Length { get; private set;}= length; public int BirthYear {
                                     get; private set; }=birthYear;public string Habitat
-                                        { get; private set;}= habitat + "@__jh.p1021";
+                                        { get; private set;}=habitat+"@_jju.coding";
                                                 public bool IsFemale {get
                                                        ;private 
                                                      set;}=!
                                                    isMale
                                                   ;}
+
