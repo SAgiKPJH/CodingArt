@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Working", "Working", "{C002
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Success", "Success", "{DC19B6F5-3324-468C-A958-BE8D55C1C367}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whale", "Working\Whale\Whale.csproj", "{037F8DA8-7AED-4C2D-AB5C-B6311E284D07}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whale", "Success\Whale\Whale.csproj", "{037F8DA8-7AED-4C2D-AB5C-B6311E284D07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +33,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5E3E59D0-26F1-4120-8EDF-B544F36EB9CF} = {BB9B668E-6927-4A1E-B62D-4E164BD4B264}
-		{037F8DA8-7AED-4C2D-AB5C-B6311E284D07} = {C002D827-6926-485E-B026-0A753DEC5F55}
+		{037F8DA8-7AED-4C2D-AB5C-B6311E284D07} = {DC19B6F5-3324-468C-A958-BE8D55C1C367}
 	EndGlobalSection
 EndGlobal
