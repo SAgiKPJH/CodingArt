@@ -1,9 +1,6 @@
 ﻿namespace Cactused;
 
-interface ICactus
-{
-    // Empty interface
-}
+interface ICactus { }
 
 class Cactus : ICactus
 {
@@ -14,6 +11,7 @@ class Cactus : ICactus
 class Saguaro(ICactus cactus) : ICactus
 {
     ICactus _cactus = new Cactus(cactus);
+    public string GetName() => _cactus.GetType().Name;
 }
 
 class BarrelCactus : ICactus
