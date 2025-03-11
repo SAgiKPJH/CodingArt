@@ -11,11 +11,11 @@ public sealed record MtMountStHelens                                     ;
 public sealed record MtMountWhitney                                      ;
 public sealed record MtMountTorre                                        ;
 public sealed record MtGasherbrum                                        ;
-public sealed record MtAnnapurna                                         ;interface
-   IMt;public record MtMountShasta                                       ;interface
-    IMountain;record MtMountAconcagua      ()                            ;interface
-IMon;  public record MtMountTammany                                      ;interface
-IMount;public record MtMountMckinley                                     ;
+public sealed record MtAnnapurna                                         ; interface
+ IMon; public record MtMountShasta                                       ; interface
+IMount;public record MtMountTammany                                      ; interface
+    IMountain;record MtMountMckinley                                     ;
+interface IMt;record MtMountAconcagua      ()                            ; 
 public sealed record MtMountSierraNevada   ()                            ;
 public sealed record MtMountPicoDeOrizaba  ( )                           ;
 public sealed record MtMountSaskatchewan  (  )                           ;
