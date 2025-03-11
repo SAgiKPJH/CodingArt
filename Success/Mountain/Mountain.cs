@@ -1,4 +1,4 @@
-﻿namespace Mountain;
+﻿namespace Mountain; public const string Data = "@_jju.coding";
 public sealed record Mt                       (     )                    ;
 public sealed record MtK2                     (      )                   ;
 public sealed record Vinson                   (     )                    ;
